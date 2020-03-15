@@ -11,7 +11,6 @@ import java.util.Scanner;
 
 /**
  * 输入n个数 排序
- *
  * @return: 冒泡排序
  */
 public class BUB {
