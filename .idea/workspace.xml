@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="aac4ed7c-a018-499f-8ff3-bd742e438de3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DSA.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DSA/SortDemo/BUB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DSA/SortDemo/INS.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DSA/SortDemo/MER.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DSA/SortDemo/QUI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DSA/SortDemo/SEL.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortDemo/INS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortDemo/MER.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortDemo/QUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortDemo/SEL.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="F:\workspaces\IdeaProjects\DSA\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\Devrepository\RepMaven" />
+        <option name="mavenHome" value="F:/DevInstall/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="F:\DevInstall\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Yk5LMCaOtM3Cj1bpamhJnWSa45" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager">
+    <configuration name="BUB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortDemo.BUB" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SortDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BUB" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aac4ed7c-a018-499f-8ff3-bd742e438de3" name="Default Changelist" comment="" />
+      <created>1583473694050</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583473694050</updated>
+      <workItem from="1583473695495" duration="1220000" />
+      <workItem from="1583484074030" duration="6905000" />
+      <workItem from="1583818045438" duration="540000" />
+      <workItem from="1583838774624" duration="14000" />
+      <workItem from="1584006385053" duration="9567000" />
+      <workItem from="1584255538700" duration="2488000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="945" y="156" key="#Notifications" timestamp="1584258200339">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="945" y="156" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1584258200339" />
+    <state x="1073" y="85" key="CommitChangelistDialog2" timestamp="1584258381027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1073" y="85" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584258381027" />
+    <state width="1064" height="238" key="GridCell.Tab.0.bottom" timestamp="1584017942695">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1064" height="238" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584017942695" />
+    <state width="1064" height="238" key="GridCell.Tab.0.center" timestamp="1584017942695">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1064" height="238" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584017942695" />
+    <state width="1064" height="238" key="GridCell.Tab.0.left" timestamp="1584017942695">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1064" height="238" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584017942695" />
+    <state width="1064" height="238" key="GridCell.Tab.0.right" timestamp="1584017942695">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1064" height="238" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584017942695" />
+    <state x="1159" y="208" key="RollbackChangesDialog" timestamp="1584258493642">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1159" y="208" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584258493642" />
+    <state x="854" y="140" key="SettingsEditor" timestamp="1584258191815">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="854" y="140" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584258191815" />
+    <state x="945" y="231" key="Vcs.Push.Dialog.v2" timestamp="1584258343467">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="945" y="231" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584258343467" />
+    <state x="1145" y="415" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584258537418">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1145" y="415" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584258537418" />
+  </component>
+</project>
