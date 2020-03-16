@@ -2,24 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aac4ed7c-a018-499f-8ff3-bd742e438de3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DSA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DSA/SortDemo/BUB.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DSA/SortDemo/INS.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DSA/SortDemo/MER.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DSA/SortDemo/QUI.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/DSA/SortDemo/SEL.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortDemo/INS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortDemo/MER.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortDemo/QUI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortDemo/SEL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortDemo/BUB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortDemo/BUB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortDemo/SEL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortDemo/SEL.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +58,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SEL">
     <configuration name="BUB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SortDemo.BUB" />
       <module name="DSA" />
@@ -87,8 +72,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SEL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortDemo.SEL" />
+      <module name="DSA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SortDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SEL" />
         <item itemvalue="Application.BUB" />
       </list>
     </recent_temporary>
@@ -121,6 +120,8 @@
       <workItem from="1583838774624" duration="14000" />
       <workItem from="1584006385053" duration="9567000" />
       <workItem from="1584255538700" duration="2488000" />
+      <workItem from="1584258521565" duration="1272000" />
+      <workItem from="1584335184136" duration="2894000" />
     </task>
     <servers />
   </component>
@@ -136,22 +137,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1073" y="85" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584258381027" />
-    <state width="1064" height="238" key="GridCell.Tab.0.bottom" timestamp="1584017942695">
+    <state width="1064" height="238" key="GridCell.Tab.0.bottom" timestamp="1584338081175">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1064" height="238" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584017942695" />
-    <state width="1064" height="238" key="GridCell.Tab.0.center" timestamp="1584017942695">
+    <state width="1064" height="238" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584338081175" />
+    <state width="1064" height="238" key="GridCell.Tab.0.center" timestamp="1584338081174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1064" height="238" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584017942695" />
-    <state width="1064" height="238" key="GridCell.Tab.0.left" timestamp="1584017942695">
+    <state width="1064" height="238" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584338081174" />
+    <state width="1064" height="238" key="GridCell.Tab.0.left" timestamp="1584338081174">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1064" height="238" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584017942695" />
-    <state width="1064" height="238" key="GridCell.Tab.0.right" timestamp="1584017942695">
+    <state width="1064" height="238" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584338081174" />
+    <state width="1064" height="238" key="GridCell.Tab.0.right" timestamp="1584338081175">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1064" height="238" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584017942695" />
+    <state width="1064" height="238" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584338081175" />
     <state x="1159" y="208" key="RollbackChangesDialog" timestamp="1584258493642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

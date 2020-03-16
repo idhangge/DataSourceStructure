@@ -1,12 +1,8 @@
 package SortDemo;
 
-import java.lang.reflect.Array;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
+
 import java.util.Arrays;
-import java.util.Date;
-import java.util.List;
-import java.util.Scanner;
+
 
 
 /**
@@ -15,27 +11,90 @@ import java.util.Scanner;
  */
 public class BUB {
     public static void main(String[] args) {
-       /* int[] arrays = new int[80000];
-        for (int i = 0; i < 80000; i++) {
-            // 会生成[0,1000000)的数
-            arrays[i] = (int)(Math.random() * 1000000);
-        }
-        Date date1 = new Date();
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        String datestr1 = simpleDateFormat.format(date1);
-        System.out.println("排序前的时间是:"+datestr1);
-        // 调用冒泡排序方法
-        bubbleSort(arrays);
-        Date date2 = new Date();
-        String datestr2 = simpleDateFormat.format(date2);
-        System.out.println("排序前的时间是:"+datestr2);*/
-/*
-        System.out.println(new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date()));
 
-        bubbleSort(arr);
-        System.out.println(new SimpleDateFormat("yyyy-MM-dd hh:mm:ss").format(new Date()));*/
+        int[] arrays = {24,69,80,57,13};;
 
-        int[] arrays = {3,2,1};
+        		/*
+		// 第一次比较
+		// arr.length - 1是为了防止数据越界
+		// arr.length - 1 - 0是为了减少比较的次数
+		for (int x = 0; x < arr.length - 1 - 0; x++) {
+			if (arr[x] > arr[x + 1]) {
+				int temp = arr[x];
+				arr[x] = arr[x + 1];
+				arr[x + 1] = temp;
+			}
+		}
+		System.out.println("第一次比较后：");
+		printArray(arr);
+
+		// 第二次比较
+		// arr.length - 1是为了防止数据越界
+		// arr.length - 1 - 1是为了减少比较的次数
+		for (int x = 0; x < arr.length - 1 - 1; x++) {
+			if (arr[x] > arr[x + 1]) {
+				int temp = arr[x];
+				arr[x] = arr[x + 1];
+				arr[x + 1] = temp;
+			}
+		}
+		System.out.println("第二次比较后：");
+		printArray(arr);
+
+		// 第三次比较
+		// arr.length - 1是为了防止数据越界
+		// arr.length - 1 - 2是为了减少比较的次数
+		for (int x = 0; x < arr.length - 1 - 2; x++) {
+			if (arr[x] > arr[x + 1]) {
+				int temp = arr[x];
+				arr[x] = arr[x + 1];
+				arr[x + 1] = temp;
+			}
+		}
+		System.out.println("第三次比较后：");
+		printArray(arr);
+
+		// 第四次比较
+		// arr.length - 1是为了防止数据越界
+		// arr.length - 1 - 3是为了减少比较的次数
+		for (int x = 0; x < arr.length - 1 - 3; x++) {
+			if (arr[x] > arr[x + 1]) {
+				int temp = arr[x];
+				arr[x] = arr[x + 1];
+				arr[x + 1] = temp;
+			}
+		}
+		System.out.println("第四次比较后：");
+		printArray(arr);
+		*/
+
+        // 而上面的代码重复度太高了，所以用循环改进
+        // for (int y = 0; y < 4; y++) {
+        // for (int x = 0; x < arr.length - 1 - y; x++) {
+        // if (arr[x] > arr[x + 1]) {
+        // int temp = arr[x];
+        // arr[x] = arr[x + 1];
+        // arr[x + 1] = temp;
+        // }
+        // }
+        // }
+
+		/*
+		// 由于我们知道比较的次数是数组长度-1次，所以改进最终版程序
+		for (int x = 0; x < arr.length - 1; x++) {
+			for (int y = 0; y < arr.length - 1 - x; y++) {
+				if (arr[y] > arr[y + 1]) {
+					int temp = arr[y];
+					arr[y] = arr[y + 1];
+					arr[y + 1] = temp;
+				}
+			}
+		}
+		System.out.println("排序后：");
+		printArray(arr);
+		*/
+
+
 
         System.out.println("排序前: " + Arrays.toString(arrays));
         //冒泡排序
@@ -67,21 +126,6 @@ public class BUB {
     }
 
 
-/*   1. //第一位和第二位比 (3和2比)
-           if (arrays[0] > arrays[1]) {
-        //交换  [2,3,1]
-        temp = arrays[0];
-        arrays[0] = arrays[1];
-        arrays[1] = temp;
-    }
-
-  2.  //第二位和第三位比 (3和1比)
-          if (arrays[1] > arrays[2]) {
-        //交换  [2,1,3]
-        temp = arrays[1];
-        arrays[1] = arrays[2];
-        arrays[2] = temp;
-    }*/
 
 
 }
