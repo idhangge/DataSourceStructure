@@ -1,4 +1,4 @@
-package SortDemo;
+﻿package SortDemo;
 
 
 import java.util.Arrays;
@@ -15,7 +15,7 @@ public class BUB {
         int[] arrays = {24,69,80,57,13};;
 
         		/*
-		// 第一次比较
+		// 第一次比较 
 		// arr.length - 1是为了防止数据越界
 		// arr.length - 1 - 0是为了减少比较的次数
 		for (int x = 0; x < arr.length - 1 - 0; x++) {
