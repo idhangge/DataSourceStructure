@@ -5,6 +5,8 @@ import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.util.Date;
 
+import static SortDemo.QuickTest.quickSort1;
+
 public class QUI {
     public static void main(String[] args) {
 
@@ -16,7 +18,7 @@ public class QUI {
         }
         LocalTime datestr1 = LocalTime.now();
         System.out.println("排序前的时间是:" + datestr1);*/
-        quickSort(a, 0, a.length - 1);
+        quickSort1(a, 0, a.length - 1);
         for (int i : a) {
             System.out.print(i + " ");
         }

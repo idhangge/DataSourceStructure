@@ -4,6 +4,9 @@ import java.text.SimpleDateFormat;
 import java.util.Arrays;
 import java.util.Date;
 
+
+import static SortDemo.SelectTest.selectSort1;
+
 /**
  * @date: 2020/3/16
  * 选择排序 :
@@ -12,7 +15,7 @@ import java.util.Date;
 public class SEL {
 
     public static void main(String[] args) {
-        // int[] arrays = {24, 69, 80, 57, 13};
+         int[] arrays = {24, 69, 80, 57, 13};
 /*
 		// 第一次
 		int x = 0;
@@ -77,26 +80,26 @@ public class SEL {
 		System.out.println("排序后：");
 		printArray(arr);
 		*/
-        int[] arrays = new int[80000];
-        for (int i = 0; i < 80000; i++) {
-            // 会生成[0,1000000)的数
-            arrays[i] = (int) (Math.random() * 1000000);
-        }
-        Date date1 = new Date();
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-        String datestr1 = simpleDateFormat.format(date1);
-        System.out.println("排序前的时间是:" + datestr1);
-
-        // selectSort(arrays);
-         selectSort2(arrays);
-        Date date2 = new Date();
-        String datestr2 = simpleDateFormat.format(date2);
-        System.out.println("排序前的时间是:" + datestr2);
-
-//        System.out.println("排序前: " + Arrays.toString(arrays));
+//        int[] arrays = new int[80000];
+//        for (int i = 0; i < 80000; i++) {
+//            // 会生成[0,1000000)的数
+//            arrays[i] = (int) (Math.random() * 1000000);
+//        }
+//        Date date1 = new Date();
+//        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+//        String datestr1 = simpleDateFormat.format(date1);
+//        System.out.println("排序前的时间是:" + datestr1);
 //
-//        selectSort(arrays);
-//        System.out.println("排序后: " + Arrays.toString(arrays));
+//        // selectSort(arrays);
+//         selectSort2(arrays);
+//        Date date2 = new Date();
+//        String datestr2 = simpleDateFormat.format(date2);
+//        System.out.println("排序前的时间是:" + datestr2);
+
+        System.out.println("排序前: " + Arrays.toString(arrays));
+
+        selectSort1(arrays);
+        System.out.println("排序后: " + Arrays.toString(arrays));
 
 
     }
