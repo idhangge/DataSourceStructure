@@ -2,22 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="aac4ed7c-a018-499f-8ff3-bd742e438de3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortDemo/BubbleTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortDemo/InsertTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortDemo/QuickTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortDemo/SelectTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortDemo/MaxHeap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortDemo/RadixSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortDemo/ShellSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/SortDemo/BUB.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/SortDemo/BUB.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/SortDemo/INS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/SortDemo/INS.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/SortDemo/QUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/SortDemo/QUI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DSA/SortDemo/SEL.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/SortDemo/SEL.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortDemo/BUB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortDemo/BUB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortDemo/INS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortDemo/INS.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortDemo/QUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortDemo/QUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortDemo/SEL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortDemo/SEL.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SortDemo/Timeutil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortDemo/Timeutil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DSA/SortDemo/MER.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DSA/SortDemo/MER.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SortDemo/MER.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SortDemo/MER.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,11 +63,11 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="debugger.stepping" />
   </component>
-  <component name="RunManager" selected="Application.QUI">
-    <configuration name="BUB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortDemo.BUB" />
+  <component name="RunManager" selected="Application.RadixSort">
+    <configuration name="MER" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortDemo.MER" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -88,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="INS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortDemo.INS" />
+    <configuration name="MaxHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortDemo.MaxHeap" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -114,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SEL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortDemo.SEL" />
+    <configuration name="RadixSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortDemo.RadixSort" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -127,8 +118,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Timeutil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortDemo.Timeutil" />
+    <configuration name="ShellSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortDemo.ShellSort" />
       <module name="DSA" />
       <extension name="coverage">
         <pattern>
@@ -142,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RadixSort" />
+        <item itemvalue="Application.ShellSort" />
+        <item itemvalue="Application.MaxHeap" />
+        <item itemvalue="Application.MER" />
         <item itemvalue="Application.QUI" />
-        <item itemvalue="Application.INS" />
-        <item itemvalue="Application.SEL" />
-        <item itemvalue="Application.Timeutil" />
-        <item itemvalue="Application.BUB" />
       </list>
     </recent_temporary>
   </component>
@@ -182,55 +173,82 @@
       <workItem from="1584335184136" duration="3025000" />
       <workItem from="1584621908594" duration="3533000" />
       <workItem from="1584762390970" duration="9000" />
-      <workItem from="1584955545243" duration="8206000" />
+      <workItem from="1584955545243" duration="8853000" />
+      <workItem from="1585114137826" duration="27000" />
+      <workItem from="1585141776694" duration="279000" />
+      <workItem from="1585218405746" duration="3303000" />
     </task>
+    <task id="LOCAL-00001" summary="更新快排和插入">
+      <created>1584964324604</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1584964324604</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="更新快排和插入" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新快排和插入" />
   </component>
   <component name="WindowStateProjectService">
     <state x="945" y="156" key="#Notifications" timestamp="1584258200339">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="945" y="156" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1584258200339" />
-    <state x="1101" y="88" key="CommitChangelistDialog2" timestamp="1584964284810">
+    <state x="1101" y="88" key="CommitChangelistDialog2" timestamp="1584964322166">
       <screen x="63" y="0" width="1857" height="1080" />
     </state>
     <state x="1073" y="85" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1584258381027" />
-    <state x="1101" y="88" key="CommitChangelistDialog2/63.0.1857.1080@63.0.1857.1080" timestamp="1584964284810" />
-    <state width="1095" height="235" key="GridCell.Tab.0.bottom" timestamp="1584964284832">
-      <screen x="63" y="0" width="1857" height="1080" />
+    <state x="1101" y="88" key="CommitChangelistDialog2/63.0.1857.1080@63.0.1857.1080" timestamp="1584964322166" />
+    <state width="1095" height="235" key="GridCell.Tab.0.bottom" timestamp="1585222230566">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1064" height="238" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584338211512" />
-    <state width="1095" height="235" key="GridCell.Tab.0.bottom/63.0.1857.1080@63.0.1857.1080" timestamp="1584964284832" />
-    <state width="1095" height="235" key="GridCell.Tab.0.center" timestamp="1584964284832">
-      <screen x="63" y="0" width="1857" height="1080" />
+    <state width="1095" height="235" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585222230566" />
+    <state width="1095" height="235" key="GridCell.Tab.0.bottom/63.0.1857.1080@63.0.1857.1080" timestamp="1584964865988" />
+    <state width="1095" height="235" key="GridCell.Tab.0.center" timestamp="1585222230565">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1064" height="238" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584338211512" />
-    <state width="1095" height="235" key="GridCell.Tab.0.center/63.0.1857.1080@63.0.1857.1080" timestamp="1584964284832" />
-    <state width="1095" height="235" key="GridCell.Tab.0.left" timestamp="1584964284831">
-      <screen x="63" y="0" width="1857" height="1080" />
+    <state width="1095" height="235" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585222230565" />
+    <state width="1095" height="235" key="GridCell.Tab.0.center/63.0.1857.1080@63.0.1857.1080" timestamp="1584964865988" />
+    <state width="1095" height="235" key="GridCell.Tab.0.left" timestamp="1585222230565">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1064" height="238" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584338211512" />
-    <state width="1095" height="235" key="GridCell.Tab.0.left/63.0.1857.1080@63.0.1857.1080" timestamp="1584964284831" />
-    <state width="1095" height="235" key="GridCell.Tab.0.right" timestamp="1584964284832">
-      <screen x="63" y="0" width="1857" height="1080" />
+    <state width="1095" height="235" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585222230565" />
+    <state width="1095" height="235" key="GridCell.Tab.0.left/63.0.1857.1080@63.0.1857.1080" timestamp="1584964865988" />
+    <state width="1095" height="235" key="GridCell.Tab.0.right" timestamp="1585222230565">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1064" height="238" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584338211512" />
-    <state width="1095" height="235" key="GridCell.Tab.0.right/63.0.1857.1080@63.0.1857.1080" timestamp="1584964284832" />
+    <state width="1095" height="235" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585222230565" />
+    <state width="1095" height="235" key="GridCell.Tab.0.right/63.0.1857.1080@63.0.1857.1080" timestamp="1584964865988" />
     <state x="1159" y="208" key="RollbackChangesDialog" timestamp="1584258493642">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1159" y="208" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584258493642" />
-    <state x="854" y="140" key="SettingsEditor" timestamp="1584258191815">
+    <state x="172" y="117" key="SettingsEditor" timestamp="1585141977356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="854" y="140" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584258191815" />
-    <state x="945" y="231" key="Vcs.Push.Dialog.v2" timestamp="1584258343467">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="172" y="117" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585141977356" />
+    <state x="977" y="240" key="Vcs.Push.Dialog.v2" timestamp="1584964803955">
+      <screen x="63" y="0" width="1857" height="1080" />
     </state>
     <state x="945" y="231" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584258343467" />
+    <state x="977" y="240" key="Vcs.Push.Dialog.v2/63.0.1857.1080@63.0.1857.1080" timestamp="1584964803955" />
     <state x="1145" y="415" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584258537418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
